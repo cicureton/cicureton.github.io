@@ -1,0 +1,79 @@
+<!--
+  Name: Christian Cureton
+  Date: 2/13/25
+  CSC 372-01
+
+  This is the index.html page for a blog recommending close to campus places to eat at
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Close to Campus Eating Recommendations</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Close to Campus Food Reccommendations</h1>
+        <nav>
+            <p><a href="meal-plan.html">Create Your Meal Plan</a></p>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Hello, Foodies !</h2>
+            <p>Tired of eating same meals at the dining hall? Well fear no more! On this blog we have showcased some of our favorite close to campus dining options what they have to offer.     </p>
+        </section>
+
+        <section class="recommendations">
+
+            <article class="restaurant">
+                <h3>East Cost Wings</h3>
+                <p>Location: 338 Tate St | Specialties: Wings, Burgers, and Wraps | Hours: 11AM - 10PM</p>
+                <p>Here are some of the recomended dishes:</p>
+                <div class="dishes">
+                    <img src="images/15pc-Bonless-Wings(ECW).jpg" alt="15pc Bonless Wings" data-name="Bonless Wings" data-price="$18.99">
+                    <img src="images/Bacon-Cheddar-Burger(ECW).jpg" alt="Bacon Cheddar Burger" data-name="Bacon Cheddar Burger" data-price="$12.49">
+                    <img src="images/Carnival-Fries(ECW).jpg" alt="Carnival Fries" data-name="Carnival Fries" data-price="$7.99">
+                </div>
+            </article>
+
+            <article class="restaurant">
+                <h3>Chipotle Mexican Grill</h3>
+                <p>Location: 435 Tate St | Specialties: Bowls, Burritos, and Tacos | Hours: 10:45 - 11PM  </p>
+                <p>Here are some of the recomended dishes:</p>
+                <div class="dishes">
+                    <img src="images/Build-Your-Own-Burrito-Bowl(Chipotle).jpg" alt="Build Your Own Burrito Bowl" data-name="Build Your Own Burrito Bowl" data-price="$13-23">
+                    <img src="images/Build-Your-Own-Burrito(Chipotle).jpg" alt="Build Your Own Burrito" data-name="Build Your Own Burrito" data-price="$8-10">
+                    <img src="images/Build-Your-Own-Quesadilla(Chipotle).jpg" alt="Build Your Own Build Your Own Quesadilla" data-name="Build Your Own Quesadilla" data-price="$8-12">
+                </div>
+
+            </article>
+
+            <article class="restaurant">
+                <h3>Slices Pizza</h3>
+                <p>Location: 401 Tate St | Specialties: Pizza, Pasta, and Subs | Hours 10:30 AM - 10PM</p>
+                <p>Here are some of the recomended dishes:</p>
+                <div class="dishes">
+                    <img src="images/Cheese-Pizza(SP).jpg" alt="Cheese Pizza" data-name="Cheese Pizza" data-price="$11.39">
+                    <img src="images/Spaghetti-With-Meatballs(SP).jpg" alt="Spaghetti With Meatballs" data-name="Spaghetti with Meatballs" data-price="$17.09">
+                    <img src="images/Garlic-Knots(SP).jpeg" alt="Garlic Knots" data-name="Garlic Knots" data-price="$1.89">
+                </div>
+            </article>
+        </section>
+
+        <aside id="dish-info">
+            <h4>Dish Details</h4>
+            <p id="dish-name"></p>
+            <p id="dish-price"></p>
+        </aside>
+    </main>
+
+</body>
+</html>

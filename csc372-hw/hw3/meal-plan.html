@@ -1,0 +1,43 @@
+<!--
+  Name: Christian Cureton
+  Date: 2/13/25
+  CSC 372-01
+
+  This is the meal-plan.html page for showcasing the available recommeded meals while also providing the cost of each.  
+  This page lets you ad, increase, or decrease the quantity of your item.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Meal Plan</title>
+</head>
+<body>
+
+    <header>
+        <h1> Create Your Meal Plan</h1>
+        <nav>
+            <a href="index.html">Recommended Dining Options</a>
+        </nav>
+    </header>
+
+    <main class="meal-plan">
+
+        <section class="menu">
+            <h2>Available Dishes</h2>
+            <ul id="dish-list"></ul>
+        </section>
+
+        <section class="plan">
+            <h2>Your Meal Plan</h2>
+            <ul id="meal-plan"></ul>
+            <p>Total Cost: $<span id="total-cost">0.00</span></p>
+        </section>
+    </main>
+</body>
+</html>
