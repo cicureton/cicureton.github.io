@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Bulk Upload</title>
+    <link rel="stylesheet" href="styles/admin.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Roomful Furniture Admin View</h1>
+        <nav>
+            <a href="admin-upload.html">Bulk Upload</a>
+            <a href="admin-products.html">Product Listing</a>
+            <a href="index.html">Sign Out</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Upload Products</h2>
+        <form>
+            <label for="file-upload">Select a JSON/CSV file: </label>
+            <input type="file" id="file-upload" accept=".json, .csv">
+            <button type="submit">Upload</button>
+        </form>
+        <p>Accepted formats; JSON, CSV. Make sure you match the format.</p>
+    </main>
+
+</body>
+</html>
