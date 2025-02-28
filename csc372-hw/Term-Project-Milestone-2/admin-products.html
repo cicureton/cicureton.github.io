@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Product Listing</title>
+    <link rel="stylesheet" href="styles/admin.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Roomful Furniture Admin View</h1>
+        <nav>
+            <a href="admin-upload.html">Bulk Upload</a>
+            <a href="admin-products.html">Product Listing</a>
+            <a href="index.html">Sign Out</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Product List</h2>
+        <input type="text" placeholder="Search products...">
+        <button>Add New Product</button>
+        <div class="product-list">
+            
+            <div class="product-item">
+               <img src="images/Orange-Chair.jpg" alt="Orange Modern Chair" class="product-image">
+               <div class="product-details">
+                <p><strong>ID:</strong> 001</p>
+                <p><strong>Name:</strong> Orange Modern Chair</p>
+                <p><strong>Category:</strong> Chair</p>
+                <p><strong>Price:</strong> $60</p>
+                <div class="product-actions">
+                    <a href="product-edit.html"><button>Edit</button></a>
+                    <button>Archive</button>
+                    <button>Delete</button>
+                </div>
+               </div>
+            </div>
+
+            <div class="product-item">
+                <img src="images/Tan-Sofa.jpg" alt="Swayed Tan Sofa" class="product-image">
+                <div class="product-details">
+                 <p><strong>ID:</strong> 002</p>
+                 <p><strong>Name:</strong> Swayed Tan Sofa</p>
+                 <p><strong>Category:</strong> Sofa</p>
+                 <p><strong>Price:</strong> $500</p>
+                 <div class="product-actions">
+                     <a href="#"><button>Edit</button></a>
+                     <button>Archive</button>
+                     <button>Delete</button>
+                 </div>
+                </div>
+             </div>
+
+             <div class="product-item">
+                <img src="images/Wooden-Table.jpg" alt="Rustic Wooden Table" class="product-image">
+                <div class="product-details">
+                 <p><strong>ID:</strong> 003</p>
+                 <p><strong>Name:</strong> Rustic Wooden Table</p>
+                 <p><strong>Category:</strong> Table</p>
+                 <p><strong>Price:</strong> $200</p>
+                 <div class="product-actions">
+                     <a href="#"><button>Edit</button></a>
+                     <button>Archive</button>
+                     <button>Delete</button>
+                 </div>
+                </div>
+             </div>
+
+        </div>
+    </main>
+</body>
