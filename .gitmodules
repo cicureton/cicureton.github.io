@@ -1,0 +1,3 @@
+[submodule "csc372-hw/hw5"]
+	path = csc372-hw/hw5
+	url = https://github.com/cicureton/cicureton.github.io.git
